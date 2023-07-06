@@ -40,6 +40,8 @@ Here are demos of the workflow in Windows and macOS:
 
 An example can be found in [`resume.md`](source/resume.md). Below are the main guidelines:
 
+- For icons you can use [`Simple Icons`](simpleicons.org) or [Font Awesome Free](https://fontawesome.com/v5/cheatsheet/free/regular).
+  - My icons are in my local repo because of license compatibility.
 - The file must contain link to stylesheet
   - `<link rel="stylesheet" type="text/css" href="resume.css">`
 - Name should be wrapped by class `name`
