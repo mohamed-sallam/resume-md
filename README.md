@@ -45,6 +45,9 @@ An example can be found in [`resume.md`](source/resume.md). Below are the main g
 - Name should be wrapped by class `name`
   - `<span class="name">First name Last name</span>`
   - Centered, large font
+- Job title should be wrapped by class `job-title`
+  - `<span class="job-title">Software Engineer</span>`
+  - Centered, medium font
 - Contact information should be wrapped by class `info`
   - `<span class="info">Phone: 123-456-789</span>`
   - Centered
@@ -52,16 +55,28 @@ An example can be found in [`resume.md`](source/resume.md). Below are the main g
   - `## Work Experience`
   - Colored, medium font, border bottom
 - Individual experience should have third level heading
-  - `### Student Assistant`
+  - `### Microsoft`
   - Bolded, small font
 - Duration of experience should be wrapped by tag `time` and in the same line as third level heading
-  - `### Student Assistant <time> 2020 - 2021 </time>`
+  - `### Microsoft <time> 2020 - 2021 </time>`
   - Right-aligned, bolded, small font
 - Location of experience should be wrapped by tag `location`
   - `<location> Boston, MA </location>`
   - Italicized, small font
+- Subtitle (brief description) of experience should be wrapped by tag `descr`
+  - `<descr> Free and Open Source Android App to quit digital addiction </descr>`
+  - Normal, small font
+- Your role in experience should be wrapped by tag `role`
+  - `<role> Research Developer </role>`
+  - Normal, small font
 - Description can be listed using Markdown style list
   - `- Designed 3 websites with cool graphics.`
+- Your skills should be wrapped by tag `skills`. Separate them with commas.
+  - `<skills>C++, Java, CMake, Qt, Object-Oriented Design, Design Patterns, JUnit, Gradle, QtTest, Scrum, Git/GitHub, REST APIs, Regex, Algorithms and Data Structures, Python, Doxygen, PySide2</skills>`
+  - Colored curved corner rectangles for each skill
+  > **Warning**
+  > - You should wait until the HTML page is completely loaded on your browser.
+  > - If the skills colored background doesn't appear in the preview of the print dialog, when you save the HTML to PDF, you SHOULD check "Print backgrounds" checkbox in "Options" section in Chrome print dialog (or the equivalent option in your browser).
 
 ### [`resume.css`](source/resume.css)
 
