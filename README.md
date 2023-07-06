@@ -5,6 +5,7 @@ Markdown resume provides a simple, elegant, and fast workflow to write resumes a
 - Tired of formatting resumes in word documents? Try writing resumes in Markdown, converting it to html, then print to pdf.
 - Applying to many jobs, and targeted resumes are hard to version control? Try writing resumes in Markdown and version control with Git.
 
+![Preview](cv.png)
 ## Prerequisite
 
 1. Download [VS Studio Code](https://code.visualstudio.com/)
